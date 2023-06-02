@@ -28,7 +28,9 @@ ts_project(
     srcs = [
         "indexer.ts",
         "plugin_api.ts",
+        "standard_indexer_context.ts",
         "utf8.ts",
+        "util.ts",
     ],
     declaration = True,
     source_map = True,

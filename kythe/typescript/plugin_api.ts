@@ -24,6 +24,8 @@ import * as ts from 'typescript';
 import {JSONEdge, JSONFact, VName} from './kythe';
 import * as utf8 from './utf8';
 
+export const LANGUAGE = 'typescript';
+
 /**
  * A unit of code that can be indexed. It resembles Kythe's CompilationUnit
  * proto.
